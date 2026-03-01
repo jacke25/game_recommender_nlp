@@ -128,17 +128,14 @@ El dataset se preprocesó en varios notebooks, donde se realizaron:
 - Recomendador híbrido basado en similitud vectorial
 
 📌 *Enlaces vectorizador y matriz de similitud hibrida:*
+
 👉 https://huggingface.co/datasets/Jacke23/steam-recommender-assets/resolve/main/tfidf_vectorizer.pkl
+
 👉 https://huggingface.co/datasets/Jacke23/steam-recommender-assets/resolve/main/similarity_hybrid.pkl
 
 ---
 
 ## 🧩 Sistema de Recomendación
-
-
-::contentReference[oaicite:1]{index=1}
-
-
 La app calcula recomendaciones así:
 
 1. Toma un juego seleccionado por el usuario  
@@ -202,11 +199,11 @@ huggingface-hub
 
 ## 🔍 Próximas Mejoras
 
--Implementar embeddings con BERT o Sentence Transformers
--Integrar FAISS para búsquedas vectoriales más rápidas
--Optimizar peso del modelo para deploy cloud
--Dashboard con estadísticas de usuarios
--Versión mobile de la app
+- Implementar embeddings con BERT o Sentence Transformers
+- Integrar FAISS para búsquedas vectoriales más rápidas
+- Optimizar peso del modelo para deploy cloud
+- Dashboard con estadísticas de usuarios
+- Versión mobile de la app
 
 ---
 
