@@ -10,7 +10,7 @@ Se aplican técnicas avanzadas de **Procesamiento de Lenguaje Natural (NLP)**, *
 - [🎯 Objetivo del Proyecto](#-objetivo-del-proyecto)
 - [🧠 Arquitectura y Metodología](#-arquitectura-y-metodología)
 - [📊 Dataset](#-dataset)
-- [📓 Notebooks del Proyecto](#️--notebooks-del-proyecto)
+- [📓 Notebooks del Proyecto](#️notebooks-del-proyecto)
 - [🖥️ Archivo Principal de la Aplicación](#️-archivo-principal-de-la-aplicación)
 - [🛠️ Procesamiento y Feature Engineering](#️-procesamiento-y-feature-engineering)
 - [🤖 Modelos Utilizados](#-modelos-utilizados)
