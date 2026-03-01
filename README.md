@@ -189,11 +189,11 @@ Debido al tamaño de la matriz (~5GBs), la app se ejecuta **exclusivamente en lo
 
 ## 📦 Requerimientos
 
-streamlit
-pandas
-numpy
-scikit-learn==1.7.1
-huggingface-hub
+- streamlit
+- pandas
+- numpy
+- scikit-learn==1.7.1
+- huggingface-hub
 
 ---
 
@@ -209,8 +209,8 @@ huggingface-hub
 
 ## 👤 Autor
 
-**Javier Andrés Díaz Charry**
-Data Science • NLP • Machine Learning
-📍 Huesca, España
+**Javier Andrés Díaz Charry**\
+Data Science • NLP • Machine Learning\
+📍 Huesca, España\
 🎮 Apasionado por IA, videojuegos y ciencia de datos
 🔗 www.linkedin.com/in/javier-andres-diaz-data-scientist
