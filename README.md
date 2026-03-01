@@ -16,8 +16,6 @@ Se aplican técnicas avanzadas de **Procesamiento de Lenguaje Natural (NLP)**, *
 - [📈 Resultados](#-resultados)
 - [🖥️ Aplicación (versión local)](#️-aplicación-versión-local)
 - [🎬 Video de Demostración](#-video-de-demostración)
-- [📁 Estructura del Proyecto](#-estructura-del-proyecto)
-- [🚀 Cómo Ejecutarlo en Local](#-cómo-ejecutarlo-en-local)
 - [📦 Requerimientos](#-requerimientos)
 - [🔍 Próximas Mejoras](#-próximas-mejoras)
 - [👤 Autor](#-autor)
