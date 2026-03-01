@@ -212,5 +212,5 @@ Debido al tamaño de la matriz (~5GBs), la app se ejecuta **exclusivamente en lo
 **Javier Andrés Díaz Charry**\
 Data Science • NLP • Machine Learning\
 📍 Huesca, España\
-🎮 Apasionado por IA, videojuegos y ciencia de datos
-🔗 www.linkedin.com/in/javier-andres-diaz-data-scientist
+🎮 Apasionado por IA, videojuegos y ciencia de datos\
+🔗 www.linkedin.com/in/javier-andres-diaz-data-scientist\
