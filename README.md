@@ -85,6 +85,81 @@ Con esto logramos capturar:
 
 ---
 
+## 📓 Notebooks del Proyecto
+
+Este repositorio incluye **tres notebooks principales**, cada uno documentando una etapa crítica del pipeline del sistema de recomendación. En conjunto, ofrecen una trazabilidad completa del desarrollo: desde el análisis inicial hasta el modelo híbrido final y la app funcional.
+
+---
+
+### **📘 01_EDA__preprocessing_game_recomendation_project.ipynb**
+Primer notebook del proyecto. Aquí se realiza:
+
+- Análisis exploratorio del dataset (tamaño, estructura, duplicados, valores faltantes)
+- Limpieza completa de datos
+- Normalización y transformación de columnas clave
+- Procesamiento de texto:
+  - Limpieza profunda  
+  - Tokenización  
+  - Lematización  
+- Conversión de géneros y etiquetas al formato de strings estandarizados utilizados por la app
+- Exportación del **dataset preprocesado final**
+
+Este notebook establece los cimientos para todos los modelos posteriores.
+
+---
+
+### **📗 02_tfidf_similarity.ipynb**
+Notebook dedicado exclusivamente al **modelo basado únicamente en descripciones**.
+
+Incluye:
+
+- Construcción del `TfidfVectorizer()` para descripciones lematizadas
+- Entrenamiento del vectorizador (fit)
+- Transformación TF-IDF de todas las descripciones
+- Cálculo de la **matriz de similitud basada solo en texto descriptivo**
+- Evaluación preliminar de resultados.
+
+Este notebook permite comparar qué tan bueno sería el sistema si solo usara texto, sin tags ni géneros.
+
+---
+
+### **📙 03_hybrid_model_genre_tags_decription.ipynb**
+Notebook central del proyecto — aquí se construye el **modelo híbrido completo** utilizado en la app.
+
+Incluye:
+
+- Generación del TF-IDF para etiquetas
+- Generación del TF-IDF para géneros
+- Creación de matrices de similitud independientes por cada característica
+- Combinación ponderada en un **modelo híbrido**:
+  - **60% Descripción**
+  - **25% Etiquetas**
+  - **15% Géneros**
+- Evaluación del rendimiento comparado vs. modelos simples
+- Construcción de la función de recomendación híbrida final
+- Exportación de función de recomendación y de las matriz hibrida
+
+Este es el notebook que contiene la versión más completa y precisa del recomendador.
+
+---
+
+## 🖥️ Archivo Principal de la Aplicación: `app.py`
+
+El archivo `app.py` contiene la implementación completa del sistema de recomendación interactivo desarrollado con **Streamlit**:
+
+- Descarga de los recursos (dataset, vectorizador, matriz híbrida)
+- Carga y preparación de los assets generados en los notebooks
+- Implementación de la función `recommend_hybrid()` utilizada en producción
+- Interfaz gráfica completamente funcional con:
+  - Menú de selección de juego
+  - Selector de número de recomendaciones
+  - Despliegue de géneros, tags y appid.
+- Arquitectura diseñada para reproducir fielmente los resultados obtenidos en los notebooks
+
+Este archivo representa el front-end y el motor de ejecución del modelo híbrido final.
+
+---
+---
 ## 📊 Dataset
 
 - **27,075 videojuegos**
