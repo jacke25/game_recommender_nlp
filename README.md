@@ -131,6 +131,10 @@ El dataset se preprocesó en varios notebooks, donde se realizaron:
 ### **Modelo final**
 - Recomendador híbrido basado en similitud vectorial
 
+📌 *Enlaces vectorizador y matriz de similitud hibrida:*
+👉 https://huggingface.co/datasets/Jacke23/steam-recommender-assets/resolve/main/tfidf_vectorizer.pkl
+👉 https://huggingface.co/datasets/Jacke23/steam-recommender-assets/resolve/main/similarity_hybrid.pkl
+
 ---
 
 ## 🧩 Sistema de Recomendación
