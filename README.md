@@ -145,7 +145,7 @@ Este es el notebook que contiene la versión más completa y precisa del recomen
 
 ---
 
-## 🖥️ Archivo Principal de la Aplicación: `app.py`
+## 🖥️ Archivo Principal de la Aplicación
 
 El archivo `app.py` contiene la implementación completa del sistema de recomendación interactivo desarrollado con **Streamlit**:
 
