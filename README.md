@@ -183,7 +183,7 @@ Debido al tamaño de la matriz (~5GBs), la app se ejecuta **exclusivamente en lo
 
 ## 🎬 Video de Demostración
 
-👉 **[Inserta aquí el link a tu video mostrando la app en funcionamiento]**
+👉 https://www.loom.com/share/e925286d05ff4d34b437f410c6249e4a
 
 ---
 
