@@ -46,10 +46,6 @@ El propósito final del proyecto es demostrar la capacidad de:
 
 ## 🧠 Arquitectura y Metodología
 
-
-::contentReference[oaicite:0]{index=0}
-
-
 El pipeline completo incluye:
 
 ### **1️⃣ Ingesta y limpieza del dataset**
