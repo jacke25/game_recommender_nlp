@@ -161,7 +161,7 @@ El archivo `app.py` contiene la implementación completa del sistema de recomend
 Este archivo representa el front-end y el motor de ejecución del modelo híbrido final.
 
 ---
----
+
 ## 📊 Dataset
 
 - **27,075 videojuegos**
